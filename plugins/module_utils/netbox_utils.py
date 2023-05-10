@@ -89,6 +89,7 @@ API_APPS_ENDPOINTS = dict(
     ipam=[
         "aggregates",
         "asns",
+        "asn_ranges",
         "fhrp_groups",
         "fhrp_group_assignments",
         "ip_addresses",
@@ -118,6 +119,7 @@ API_APPS_ENDPOINTS = dict(
 # Used to normalize data for the respective query types used to find endpoints
 QUERY_TYPES = dict(
     asn="asn",
+    asn_range="name",
     circuit="cid",
     circuit_termination="circuit",
     circuit_type="slug",
@@ -297,6 +299,7 @@ CONVERT_TO_ID = {
 ENDPOINT_NAME_MAPPING = {
     "aggregates": "aggregate",
     "asns": "asn",
+    "asn_ranges": "asn_range",
     "cables": "cable",
     "circuit_terminations": "circuit_termination",
     "circuit_types": "circuit_type",

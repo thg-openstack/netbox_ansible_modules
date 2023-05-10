@@ -152,6 +152,7 @@ class NetboxIpamModule(NetboxModule):
         Supported endpoints:
         - aggregates
         - asns
+        - asn_ranges
         - fhrp_groups
         - fhrp_group_assignments
         - ipam_roles

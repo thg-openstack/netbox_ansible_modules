@@ -12,6 +12,7 @@ action_groups:
   netbox:
     - netbox_aggregate
     - netbox_asn
+    - netbox_asn_range
     - netbox_cable
     - netbox_circuit
     - netbox_circuit_termination
