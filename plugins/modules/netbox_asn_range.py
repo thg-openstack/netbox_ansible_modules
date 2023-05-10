@@ -143,6 +143,7 @@ def main():
                     rir=dict(type="int"),
                     start=dict(type="int"),
                     end=dict(type="int"),
+                    tenant=dict(type="int"),
                     description=dict(type="str"),
                     tags=dict(required=False, type="list", elements="raw"),
                     custom_fields=dict(required=False, type="dict"),
