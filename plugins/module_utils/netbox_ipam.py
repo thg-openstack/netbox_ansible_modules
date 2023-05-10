@@ -20,6 +20,7 @@ from ansible_collections.netbox.netbox.plugins.module_utils.netbox_utils import 
 
 NB_AGGREGATES = "aggregates"
 NB_ASNS = "asns"
+NB_ASN_RANGES = "asn_ranges"
 NB_FHRP_GROUPS = "fhrp_groups"
 NB_FHRP_GROUP_ASSIGNMENTS = "fhrp_group_assignments"
 NB_IP_ADDRESSES = "ip_addresses"
