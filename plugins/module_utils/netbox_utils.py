@@ -379,6 +379,7 @@ ENDPOINT_NAME_MAPPING = {
 ALLOWED_QUERY_PARAMS = {
     "aggregate": set(["prefix", "rir"]),
     "asn": set(["asn"]),
+    "asn_range": set(["name"]),
     "assigned_object": set(["name", "device", "virtual_machine"]),
     "bridge": set(["name", "device"]),
     "circuit": set(["cid"]),
